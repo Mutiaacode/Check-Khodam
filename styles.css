@@ -1,0 +1,117 @@
+body {
+    background-image: url('img/bg2.jpg'); /* Ganti path/to/your/image.jpg dengan path gambar yang Anda inginkan */
+    background-size: cover; /* Memastikan gambar mengisi seluruh area background */
+    background-position: center; /* Posisi gambar di tengah */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Menggunakan font default dari Bootstrap */
+    color: #fff; /* Warna teks utama */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); /* Efek box shadow pada body */
+}
+
+h1.display-4.neon-text {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Menggunakan font default dari Bootstrap */
+    font-weight: bold; /* Atur tebal font */
+    color: #fff; /* Warna teks */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700; /* Mengatur tebal font untuk judul */
+}
+
+.display-4 {
+    font-size: 2.5em;
+}
+
+.neon-box {
+    background-color: rgba(51, 51, 51, 0.8); /* Warna latar belakang box dengan opacity */
+    border-radius: 10px; /* Sudut border box */
+    padding: 15px; /* Ruang dalam box */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Efek box shadow */
+}
+
+.btn-primary {
+    background-color: #5F59D0; /* Warna latar belakang tombol */
+    border-radius: 20px; /* Sudut border tombol */
+    border-color: #5F59D0; /* Warna border tombol */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Efek box shadow */
+}
+
+.btn-primary:hover {
+    background-color: #4F49A0; /* Warna latar belakang tombol saat hover */
+    border-color: #4F49A0; /* Warna border tombol saat hover */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Efek box shadow saat hover */
+}
+
+.alert-warning {
+    background-color: rgba(255, 193, 7, 0.8); /* Warna latar belakang alert kuning dengan opacity */
+    border-color: rgba(255, 193, 7, 0.8); /* Warna border alert kuning dengan opacity */
+    color: #000; /* Warna teks pada alert kuning */
+    border-radius: 20px;
+}
+
+
+.alert-info {
+    background-color: #ffffff; /* Warna latar belakang alert biru */
+    border-color: #17a2b8; /* Warna border alert biru */
+    border-radius: 20px;
+}
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
+
+#result-section {
+    background-color: rgba(51, 51, 51, 0.8); /* Warna latar belakang dengan opacity */
+    border-radius: 10px; /* Sudut border box */
+    padding: 15px; /* Ruang dalam box */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Efek box shadow */
+}
+
+#result-section h2 {
+    font-size: 2em; /* Ukuran font judul hasil pemeriksaan */
+}
+
+#result {
+    font-size: 1.5em; /* Ukuran font teks hasil pemeriksaan */
+    background-color: transparent; /* Hapus background color agar dapat melihat background neon-box */
+    padding: 20px; /* Ruang dalam box */
+}
+
+#result-section button {
+    font-size: 1em; /* Ukuran font tombol kembali */
+}
+
+#form-section {
+    background-color: rgba(51, 51, 51, 0.8); /* Warna latar belakang dengan opacity */
+    border-radius: 20px; /* Sudut border box */
+    padding: 30px; /* Ruang dalam box */
+}
+
+#form-section h2 {
+    font-size: 2em; /* Ukuran font judul */
+}
+
+.form-group label {
+    font-size: 1.2em; /* Ukuran font label */
+    border-radius: 20px;
+}
+
+.form-control {
+    background-color: transparent; /* Hapus background color input */
+    border-color: #fff; /* Warna border input */
+    color: #fff; /* Warna teks input */
+    border-radius: 20px;
+    text-align: center; /* Mengatur teks input menjadi di tengah */
+    transition: all 0.3s ease; /* Transisi untuk smooth transition */
+}
+
+.form-control::placeholder {
+    color: #ccc; /* Warna placeholder input */
+}
+
+.form-control:focus {
+    color: #ffffff; /* Warna teks input saat sedang fokus */
+    background-color: transparent; /* Warna latar belakang input saat sedang fokus */
+    border-color: #fff; /* Warna border input saat sedang fokus */
+    outline: none; /* Hapus outline default saat fokus */
+}
